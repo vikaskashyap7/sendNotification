@@ -31,8 +31,8 @@ function StatusBar() {
                     <Image src={wifiLow} className=' absolute w-[4.85px] h-[3.54px] top-[10.96px] left-[5.58px]'/>
                 </div>
                 <div className='w-[28px] h-[16px] relative '>
-                  <Image src={vector} className=' absolute top-[2.5px]'/>
-                  <Image src={levels} className=' absolute top-[4.5px] left-[2px]'/>
+                  <Image src={vector} alt='vector' className=' absolute top-[2.5px]'/>
+                  <Image src={levels} alt='levels' className=' absolute top-[4.5px] left-[2px]'/>
                 </div>
               </div>
               
