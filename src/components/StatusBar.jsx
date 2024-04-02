@@ -14,7 +14,7 @@ function StatusBar() {
             <div className='w-[6em]] h-[2.75em] relative'>
                 <div className=' w-[2.938] h-[1.313em] absolute top-[0.875em] left-[29.5px] gap-[2px] flex'>
                     <div className=' font-[SFProText] font-[16px] leading-[21px] tracking-[-0.3199999928474426px] text-right text-[#FFFFFF] '>1:11</div>
-                    <div className='w-[1em] h-[7.563em] relative' ><Image src={sendImg} className=' absolute top-[3.4px]' /></div>
+                    <div className='w-[1em] h-[7.563em] relative' ><Image src={sendImg} alt="sendImg" className=' absolute top-[3.4px]' /></div>
                 </div>
             </div>
             <div className='w-[6em] h-[2.75em] relative '>
@@ -31,8 +31,8 @@ function StatusBar() {
                     <Image src={wifiLow} className=' absolute w-[4.85px] h-[3.54px] top-[10.96px] left-[5.58px]'/>
                 </div>
                 <div className='w-[28px] h-[16px] relative '>
-                  <Image src={vector} alt='vector' className=' absolute top-[2.5px]'/>
-                  <Image src={levels} alt='levels' className=' absolute top-[4.5px] left-[2px]'/>
+                  <Image src={vector} alt="vector" className=' absolute top-[2.5px]'/>
+                  <Image src={levels} alt="levels" className=' absolute top-[4.5px] left-[2px]'/>
                 </div>
               </div>
               
